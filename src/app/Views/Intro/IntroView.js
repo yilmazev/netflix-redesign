@@ -1,7 +1,7 @@
 'use client'
 import * as Styled from "./IntroStyle"
-import { Button } from "./../../app/Components/Button/ButtonView"
-import { Logo } from "../../app/Components/Icons/IconsView"
+import { Button } from "../../Components/Button/ButtonView"
+import { Logo } from "../../Components/Icons/IconsView"
 
 export default function Intro() {
     return (

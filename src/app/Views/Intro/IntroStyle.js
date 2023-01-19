@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import PerspectiveAlphaWebsiteLarge from "../../assets/images/perspective_alpha_website_large.jpg"
+import PerspectiveAlphaWebsiteLarge from "../../../assets/images/perspective_alpha_website_large.jpg"
 
 export const Container = styled.div`
     width: auto;

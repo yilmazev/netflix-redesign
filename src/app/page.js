@@ -1,6 +1,6 @@
 'use client'
 import { createGlobalStyle } from "styled-components"
-import Intro from "../pages/Intro/IntroView"
+import Intro from './Views/Intro/IntroView';
 
 export default function Main() {
     return <><GlobalStyle /><Intro /></>
