@@ -6,7 +6,7 @@ export default function Main() {
     return <><GlobalStyle /><Intro /></>
 }
 
-export const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
     @font-face {
         font-display: optional;
         font-family: Netflix Sans;
