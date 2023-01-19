@@ -1,6 +1,6 @@
 'use client'
 import * as Styled from "./IntroStyle"
-import { Button } from './../../app/Components/Button/ButtonView'
+import { Button } from "./../../app/Components/Button/ButtonView"
 import { Logo } from "../../app/Components/Icons/IconsView"
 
 export default function Intro() {
@@ -20,9 +20,9 @@ export default function Intro() {
                     </Styled.Row>
                 </Styled.Navigation>
                 <Styled.CardText>
-                    <Styled.CardTitle>See what's next.</Styled.CardTitle>
+                    <Styled.CardTitle>See what&apos;s next.</Styled.CardTitle>
                     <Styled.CardSubTitle>Watch anywhere.<br />Cancel anytime.</Styled.CardSubTitle>
-                    <Button type="button" styleType="primary" variant="red" size="lg" text="Join Free For A Month" style={{textTransform: 'uppercase'}} />
+                    <Button type="button" styleType="primary" variant="red" size="lg" text="Join Free For A Month" style={{ textTransform: 'uppercase' }} />
                 </Styled.CardText>
             </Styled.Header>
         </Styled.Container>
