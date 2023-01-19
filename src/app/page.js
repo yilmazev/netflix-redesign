@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components"
 import Intro from "../pages/Intro/IntroView"
 
 export default function Main() {
-    return <><GlobalStyle /><Intro /></>
+    return <><h1>Test</h1></>
 }
 
 const GlobalStyle = createGlobalStyle`
